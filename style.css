@@ -176,7 +176,7 @@ img {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: auto;
+  height: 60%;
 }
 
 .banner-wrapper-fixed .foreground h1 {
