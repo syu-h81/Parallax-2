@@ -162,7 +162,7 @@ img {
  left: 0;
  width: 100%;
  height: 1000px;
- background-image: url('../images/LEXUS_LS_back.png');
+ background-image: url('https://syu-h81.github.io/Parallax-2/LEXUS_LS_back.png');
  background-position: center;
  background-size: cover;
  transition: all 0.1s ease 0s;
@@ -196,7 +196,7 @@ img {
 .heading {
   padding: 2% 0;
   letter-spacing: 1px;
-  font-size: 2.4em;
+  font-size: 2em;
  text-align: center;
 }
 
