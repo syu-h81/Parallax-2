@@ -1,0 +1,140 @@
+@media (max-width:600px){
+  
+  body {
+    background-color: #000;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .wrapper {
+    height: 300px;
+  }
+
+  .header .logo-container h1 {
+    padding: 0;
+      padding-left: 50px;
+  }
+
+  .header ul li {
+    display: none;
+  }
+
+  .header ul {
+   margin: 0 50px 0 0;
+   list-style-type: none;
+   padding: 0;
+   float: right;
+   border: 0px solid black;
+  }
+
+  .header ul li a {
+   display: inline-block;
+   text-decoration: none;
+   padding: 30px 15px;
+   color: white;
+   border-top: 5px solid transparent;
+   -webkit-transition: padding 0.4s linear 0s;
+   font-size: 16px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #fff;
+  }
+
+  .menu-nav-wrapper {
+    color: #fff;
+    display: block;
+    position: relative;
+    z-index: 99999;
+    display: none;
+  }
+
+  .container {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .menu-nav-wrapper .phone-menu-nav {
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .menu-nav-wrapper .phone-menu-nav li {
+    list-style: none;
+  }
+
+  .menu-nav-wrapper .phone-menu-nav a {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding: 6px 15px;
+    display: block;
+  }
+
+  .ls-wrapper {
+    background-color: #000;
+  }
+
+  .banner-wrapper-fixed {
+    top: 0%;
+    height: 500px;
+  }
+
+  .foreground {
+   position: absolute;
+   top: 1%;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.4);
+  }
+
+  .title-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .service-wrapper {
+    margin-top: 18%;
+  }
+
+  .services {
+    display: block;
+  }
+
+  .service {
+    margin-bottom: 18%;
+  }
+
+  .service-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery {
+    width: 50%;
+    height: auto;
+  }
+
+  .footer-menu-nav {
+      padding-left: 0;
+      display: block;
+  }
+
+  .footer-menu-nav li {
+    font-size: 0.8em;
+  }
+
+  .phone-none-c {
+    display: none;
+  }
+}
