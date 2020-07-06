@@ -18,6 +18,7 @@ body {
 
 .L-tewelve {
  background-color: white;
+ width: 100%;
 }
 
 img {
@@ -151,30 +152,35 @@ img {
  display: table;
 }
 
+/*.ls-wrapper {
+  background-color: #000;
+}*/
+
 .banner-wrapper-fixed {
  position: fixed;
  top: 0;
  left: 0;
  width: 100%;
- height: 600px;
- background-image: url('https://syu-h81.github.io/Parallax-2/LEXUS_LS_back.png');
+ height: 1000px;
+ background-image: url('../images/LEXUS_LS_back.png');
  background-position: center;
  background-size: cover;
  transition: all 0.1s ease 0s;
 }
 
 .foreground {
- position: absolute;
+ /*position: absolute;
  top: 0;
- left: 0;
+ left: 0;*/
  width: 100%;
  height: 100%;
- background-color: rgba(0,0,0,0.4);
+ background-color: rgba(0,0,0,0,4);
 }
 
 .title-img {
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
+  padding-top: 20%;
   width: 100%;
   height: 60%;
 }
